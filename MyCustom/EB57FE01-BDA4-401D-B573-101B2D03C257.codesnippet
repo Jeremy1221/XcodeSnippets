@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>kactionsheet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertController * sheet  = [UIAlertController alertControllerWithTitle:&lt;#(nullable NSString *)#&gt; message:&lt;#(nullable NSString *)#&gt; preferredStyle:UIAlertControllerStyleActionSheet];
+        [alert addAction:[UIAlertAction actionWithTitle:&lt;#(nullable NSString *)#&gt; style:&lt;#(UIAlertActionStyle)#&gt; handler:&lt;#^(UIAlertAction * _Nonnull action)handler#&gt;]];
+        [alert addAction:[UIAlertAction actionWithTitle:&lt;#(nullable NSString *)#&gt; style:&lt;#(UIAlertActionStyle)#&gt; handler:&lt;#^(UIAlertAction * _Nonnull action)handler#&gt;]];
+        [self presentViewController:alert animated:YES completion:&lt;#^(void)completion#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EB57FE01-BDA4-401D-B573-101B2D03C257</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIActionSheet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
