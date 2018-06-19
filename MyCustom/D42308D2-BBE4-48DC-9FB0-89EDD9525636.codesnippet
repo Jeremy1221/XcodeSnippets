@@ -3,19 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kaddnotification</string>
+	<string>kgetview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#notificationname#&gt; object:nil];</string>
+	<string>- (UIView *)&lt;#property#&gt; {
+    if (&lt;#condition#&gt;) {
+        &lt;#statements#&gt;
+    }
+    return &lt;#expression#&gt;;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>96BE927F-D82F-4D3B-92E0-036955F9B706</string>
+	<string>D42308D2-BBE4-48DC-9FB0-89EDD9525636</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>add notification</string>
+	<string>get UIView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

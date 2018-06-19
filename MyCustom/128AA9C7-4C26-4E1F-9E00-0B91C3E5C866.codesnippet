@@ -10,7 +10,10 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - UICollectionViewDelegate
-</string>
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>128AA9C7-4C26-4E1F-9E00-0B91C3E5C866</string>
 	<key>IDECodeSnippetLanguage</key>

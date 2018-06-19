@@ -37,3 +37,5 @@ Top Level 最高层 不了解
 <#表示占位符#>
 
 删除方法：直接点击然后按delete ⌫ 按钮
+
+* xcode主题设置方法:将 FontAndColorThemes文件夹copy到/Users/super/Library/Developer/Xcode/UserData目录下

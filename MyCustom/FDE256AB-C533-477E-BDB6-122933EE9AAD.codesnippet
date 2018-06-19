@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kaddnotification</string>
+	<string>kmasedgzero</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#notificationname#&gt; object:nil];</string>
+	<string>make.edges.equalTo(self).insets(UIEdgeInsetsZero);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>96BE927F-D82F-4D3B-92E0-036955F9B706</string>
+	<string>FDE256AB-C533-477E-BDB6-122933EE9AAD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>add notification</string>
+	<string>mas make edg zero</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

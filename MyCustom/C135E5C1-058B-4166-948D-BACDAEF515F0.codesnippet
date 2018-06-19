@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kaddnotification</string>
+	<string>kfetchdata</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#notificationname#&gt; object:nil];</string>
+	<string>- (void)fetchData:(void(^)(BOOL isSuccess))resultBlock;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>96BE927F-D82F-4D3B-92E0-036955F9B706</string>
+	<string>C135E5C1-058B-4166-948D-BACDAEF515F0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>add notification</string>
+	<string>fetchdatamethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

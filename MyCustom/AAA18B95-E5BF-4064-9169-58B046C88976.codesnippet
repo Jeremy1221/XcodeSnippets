@@ -15,8 +15,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property (nonatomic, copy@property (nonatomic, copy) NSMutableArray
-@property (nonatomic, copy) NSMutableArray *&lt;#object#&gt;;
+	<string>@property (nonatomic, cop) NSMutableArray *&lt;#object#&gt;;
 </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>

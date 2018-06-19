@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>kNSCoding</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - NSCoding
+-(void)encodeWithCoder:(NSCoder *)aCoder {
+    unsigned int count = 0;
+    Ivar * vars = class_copyIvarList([self class], &amp;count);
+    for (int i = 0; i &lt; count; i++) {
+        Ivar var = vars[i];
+        const char* name = ivar_getName(var);
+        NSString * key = [NSString stringWithUTF8String:name];
+        id value = [self valueForKey:key];
+        [aCoder encodeObject:value forKey:key];
+    }
+}
+
+-(instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super init]) {
+        unsigned int count = 0;
+        Ivar * vars = class_copyIvarList([self class], &amp;count);
+        for (int i = 0; i &lt; count; i++) {
+            Ivar var = vars[i];
+            const char* name = ivar_getName(var);
+            NSString * key = [NSString stringWithUTF8String:name];
+            id value = [aDecoder decodeObjectForKey:key];
+            [self setValue:value forKey:key];
+        }
+    }
+    return self;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F34F781B-5038-4EC0-B163-6F06EC053066</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSCoding runtime</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
