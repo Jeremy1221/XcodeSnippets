@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kstaticnssttingconst</string>
+	<string>kprotocoldelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString * const k&lt;#kname#&gt; = @"&lt;#value#&gt;";</string>
+	<string>@protocol &lt;#delegate#&gt; &lt;NSObject&gt;
+@required
+@optional
+@end
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>01DBB96B-B925-4464-9002-21E5A285D3D8</string>
+	<string>4274F8FE-B31F-4D9C-860D-01CE703F2687</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>static NSString * const</string>
+	<string>@protocol delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

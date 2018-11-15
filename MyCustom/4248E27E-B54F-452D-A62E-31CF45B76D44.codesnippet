@@ -3,21 +3,38 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kstaticnssttingconst</string>
+	<string>ksingleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString * const k&lt;#kname#&gt; = @"&lt;#value#&gt;";</string>
+	<string>static &lt;#Class#&gt; * instance = nil;
+
++ (instancetype)sharedInstance {
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        instance = [[&lt;#Class#&gt; alloc] init];
+    });
+    return instance;
+}
+
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        instance = [super allocWithZone:zone];
+    });
+    return instance;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>01DBB96B-B925-4464-9002-21E5A285D3D8</string>
+	<string>4248E27E-B54F-452D-A62E-31CF45B76D44</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>static NSString * const</string>
+	<string>kSingleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>kcustombarbuttonitem</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>_leftBtn = ({
+        UIButton * button = [MRDViewHelper buttonWithFrame:CGRectMake(0, 0, 50, 50)
+                                                   bgImage:nil
+                                                     image:@"home_locScreen"
+                                                     title:@" 全部"
+                                                 textColor:[UIColor blackTextColor]
+                                                    method:@selector(leftNavItemClick:)
+                                                    target:self];
+        button.titleLabel.font = [UIFont fontWithName:MRDPINGFANGSCMEDIUM size:18];
+        [button imagePosition:MRDButtonImagePositionRight withSpacing:20];
+        button;
+    });
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:_leftBtn];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9EFBDFD4-CE25-4B38-9DAD-888D0BA28624</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>barbuttonitem customview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

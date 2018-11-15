@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>kstaticnssttingconst</string>
+	<string>kimagebarbuttonitem</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString * const k&lt;#kname#&gt; = @"&lt;#value#&gt;";</string>
+	<string>self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"back"] style:UIBarButtonItemStylePlain target:self action:@selector(p_back)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>01DBB96B-B925-4464-9002-21E5A285D3D8</string>
+	<string>4651C157-B337-47CD-BC0A-2CC2182F87C7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>static NSString * const</string>
+	<string>barbuttonitem image</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
